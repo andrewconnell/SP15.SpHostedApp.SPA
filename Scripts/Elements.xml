@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\toastr.min.js" Url="Scripts/toastr.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\toastr.js" Url="Scripts/toastr.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\knockout-2.2.1.js" Url="Scripts/knockout-2.2.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\knockout-2.2.1.debug.js" Url="Scripts/knockout-2.2.1.debug.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modernizr-2.6.2.js" Url="Scripts/modernizr-2.6.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\sammy-0.7.4.min.js" Url="Scripts/sammy-0.7.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\sammy-0.7.4.js" Url="Scripts/sammy-0.7.4.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.min.js" Url="Scripts/moment.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment.js" Url="Scripts/moment.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\datajs-1.1.0.js" Url="Scripts/datajs-1.1.0.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\linq-vsdoc.js" Url="Scripts/linq-vsdoc.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\linq.min.js" Url="Scripts/linq.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\linq.js" Url="Scripts/linq.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

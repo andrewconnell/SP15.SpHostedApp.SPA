@@ -1,0 +1,75 @@
+﻿.cursor-help {
+  cursor: help;
+}
+
+/* shell */
+#applicationHost > div {
+  min-height: 410px;
+  min-width: 968px;
+}
+
+.loader {
+  margin: 5px 10px;
+  visibility: hidden;
+}
+
+  .loader.active {
+    visibility: visible;
+  }
+
+/* tabbed content fixup */
+.tabs-left > .nav-tabs {
+  margin-right: 0px;
+}
+
+.tab-content {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  min-height: 310px;
+}
+
+/* table row fixups */
+.cell-actions {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+/* debug footer fixeup */
+section.debugFooter > div > div.alert {
+  margin-bottom: 0px;
+}
+
+/* SharePoint button fixups */
+.btn-tiny {
+  min-width: 0em;
+}
+
+/* font awesome fixups */
+.icon-lock {
+  color: #04c;
+}
+
+a:link > .icon-globe,
+a:visited > .icon-globe {
+  color: #04c;
+  text-decoration: none;
+}
+
+a > .icon-random,
+a:link > .icon-random,
+a:visited > .icon-random {
+  margin: 5px 0px 0px;
+  color: #04c;
+  text-decoration: none;
+}
+
+a > .icon-spinner,
+a:link > .icon-spinner,
+a:visited > .icon-spinner {
+  margin: 5px 0px 0px;
+  color: #04c;
+  text-decoration: none;
+}

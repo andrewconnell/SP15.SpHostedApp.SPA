@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Learning Items"
+                OnQuickLaunch="TRUE"
+                TemplateType="10001"
+                Url="Lists/LearningItems"
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Entity Framework 4.1 - Code First</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="LearningPath">1;#Entity Framework Code First</Field>
+          <Field Name="URL">http://www.pluralsight.com/training/Courses/TableOfContents/ef41-code-first</Field>
+          <Field Name="_Comments">Pluralsight OnDemand Course: Entity Framework 4.1 - Code First by Julie Learman</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Entity Framework Code First Migrations</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="LearningPath">1;#Entity Framework Code First</Field>
+          <Field Name="URL">http://www.pluralsight.com/training/Courses/TableOfContents/efmigrations</Field>
+          <Field Name="_Comments">Pluralsight OnDemand Course: Entity Framework Code First Migrations by Julie Learman</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Recent Noteworthy Entity Framework Posts You Won’t Want to Miss</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="LearningPath">1;#Entity Framework Code First</Field>
+          <Field Name="URL">http://thedatafarm.com/blog/data-access/recent-noteworthy-entity-framework-posts-you-won-rsquo-t-want-to-miss/</Field>
+          <Field Name="_Comments">From Julie Lerman's Blog</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 - What you need to know</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 Development</Field>
+          <Field Name="URL">http://www.andrewconnell.com/blog/SP2013-What-you-need-to-know</Field>
+          <Field Name="_Comments">From Andrew Connell's Blog</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Understanding SharePoint 2013 Apps (aka: Apps 101)</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 Development</Field>
+          <Field Name="URL">http://www.andrewconnell.com/blog/Understanding-SP2013-Apps-aka-Apps-101</Field>
+          <Field Name="_Comments">From Andrew Connell's Blog</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Developer Ramp-Up - Part 1</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 Development</Field>
+          <Field Name="URL">http://www.pluralsight.com/training/Courses/TableOfContents/cpt-sp2013-dev-ramp-part1</Field>
+          <Field Name="_Comments">In this course students will get up to speed on SharePoint 2013 both from a SKU/license perspective as well as from a capability and architectural perspective. The different deployment models will also be covered in depth (on-premise / hosted [Office 365] / hybrid) and an overview on the different development and extensibility options.</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">How to: Create a basic SharePoint-hosted app</Field>
+          <Field Name="ItemType">Article</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 Development</Field>
+          <Field Name="URL">http://msdn.microsoft.com/en-us/library/sharepoint/fp142379(v=office.15).aspx</Field>
+          <Field Name="_Comments">From MSDN</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint Evolutions 2013 Conference</Field>
+          <Field Name="ItemType">Conference</Field>
+          <Field Name="LearningPath">2;#SharePoint 2013 Development</Field>
+          <Field Name="URL">http://www.sharepointevolutionconference.com/</Field>
+          <Field Name="_Comments"></Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Single Page Apps Jumpstart</Field>
+          <Field Name="ItemType">Training Course</Field>
+          <Field Name="LearningPath">3;#Single Page Apps</Field>
+          <Field Name="URL">http://www.pluralsight.com/training/Courses/TableOfContents/single-page-apps-jumpstart</Field>
+          <Field Name="_Comments">Build a Single Page Application (SPA), in JavaScript and HTML, with a rich user experience and runs on almost any device!</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">John Papa's Blog</Field>
+          <Field Name="ItemType">Blog Post</Field>
+          <Field Name="LearningPath">3;#Single Page Apps</Field>
+          <Field Name="URL">http://www.johnpapa.net/</Field>
+          <Field Name="_Comments">John Papa is a well-known former Sr Technical Evangelist for Microsoft on the Silverlight and Windows 8 client teams. John is a Microsoft Regional Director and author of 100+ articles and 10 books, specializes in professional application development with technologies including Windows, HTML5, JavaScript, CSS, Silverlight, WPF, C#, .NET and SQL Server. He can often be found speaking around the world at keynotes and session for industry conferences such as Build, MIX, and PDC. John was the host of the popular show Silverlight TV on Channel 9 and hosted many events including the MIXer and Open Source Fest. He currently enjoys authoring courses for Pluralsight.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

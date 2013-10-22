@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D07ABF8-5AEC-471B-AB07-7C4DF9436642}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LearningPathManagerApp</RootNamespace>
+    <AssemblyName>LearningPathManagerApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{e2194b4f-7b0e-40e1-83a2-114085bae206}</AppFeaturePartId>
+    <WspPartId>{043241b4-e7f3-4dd7-9dc4-94d1fa2d7b56}</WspPartId>
+    <WorkflowPartId>{4beef3a0-001f-4671-91cf-7786130742fe}</WorkflowPartId>
+    <CspkgPartId>{05c9654a-f760-4782-b4ab-3a8998a65861}</CspkgPartId>
+    <SqlPackagePartId>{c38ad415-8e11-4966-a03b-8dc287d47c2c}</SqlPackagePartId>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Workflow Dependencies\WorkflowHistoryList\Elements.xml" />
+    <Content Include="Workflow Dependencies\WorkflowTaskList\Elements.xml" />
+    <None Include="App\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b36ff5e3-27a2-490f-b652-6bd3bc84502c}</SharePointProjectItemId>
+    </None>
+    <Content Include="App\config.js" />
+    <Content Include="App\durandal\plugins\router.js" />
+    <Content Include="App\durandal\transitions\entrance.js" />
+    <Content Include="App\models\learningItem.js" />
+    <Content Include="App\models\core.js" />
+    <Content Include="App\services\dataService.js" />
+    <Content Include="App\services\liveServiceUtils.js" />
+    <Content Include="App\services\oDataUtils.js" />
+    <Content Include="App\services\workflowService.js" />
+    <Content Include="App\viewModels\learningItems.js" />
+    <Content Include="App\views\debug.html" />
+    <Content Include="App\viewModels\debug.js" />
+    <Content Include="App\models\learningPath.js" />
+    <Content Include="App\services\spAppUtils.js" />
+    <Content Include="App\services\spCurrentPageUtils.js" />
+    <Content Include="App\views\learningItemDialog.html" />
+    <Content Include="App\views\learningItems.html" />
+    <Content Include="App\views\learningPathDialog.html" />
+    <Content Include="App\views\nav.html" />
+    <Content Include="Content\App.min.css">
+      <DependentUpon>App.css</DependentUpon>
+    </Content>
+    <Content Include="Content\font\fontawesome-webfont.eot" />
+    <Content Include="Content\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\font\fontawesome-webfont.woff" />
+    <Content Include="Content\font\FontAwesome.otf" />
+    <None Include="Data\Learning Items List\Learning Items List Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2cbfb628-e88e-4149-8c03-36e4843396f2}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\Learning Items List\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{70b3472d-7831-4997-a079-ea66af0bad3f}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\Learning Paths List\Learning Paths List Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c63616e4-7861-43d7-afae-6891fbc279c4}</SharePointProjectItemId>
+    </None>
+    <None Include="Data\Learning Paths List\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d9c9f568-8ebf-4592-befa-91dcb35ddf00}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1e2f4ff-5e1f-4359-b440-92ec02461fcf}</SharePointProjectItemId>
+    </None>
+    <Content Include="App\durandal\amd\almond-custom.js" />
+    <Content Include="App\durandal\amd\optimizer.exe" />
+    <Content Include="App\durandal\amd\r.js" />
+    <Content Include="App\durandal\amd\require.js" />
+    <Content Include="App\durandal\amd\text.js" />
+    <Content Include="App\durandal\app.js" />
+    <Content Include="App\durandal\composition.js" />
+    <Content Include="App\durandal\events.js" />
+    <Content Include="App\durandal\http.js" />
+    <Content Include="App\durandal\messageBox.html" />
+    <Content Include="App\durandal\messageBox.js" />
+    <Content Include="App\durandal\modalDialog.js" />
+    <Content Include="App\durandal\system.js" />
+    <Content Include="App\durandal\viewEngine.js" />
+    <Content Include="App\durandal\viewLocator.js" />
+    <Content Include="App\durandal\viewModel.js" />
+    <Content Include="App\durandal\viewModelBinder.js" />
+    <Content Include="App\durandal\widget.js" />
+    <Content Include="App\Elements.xml" />
+    <Content Include="App\services\logger.js" />
+    <Content Include="App\main.js" />
+    <Content Include="App\views\shell.html" />
+    <Content Include="App\viewModels\shell.js" />
+    <Content Include="App\views\learningPaths.html" />
+    <Content Include="App\viewModels\learningPaths.js" />
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\durandal.css" />
+    <Content Include="Content\font-awesome-ie7.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\font\fontawesome-webfont.svg" />
+    <Content Include="Content\images\glyphicons-halflings-white.png" />
+    <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css">
+      <DependentUpon>toastr.css</DependentUpon>
+    </Content>
+    <Content Include="Data\Learning Items List\Elements.xml" />
+    <Content Include="Data\Learning Items List\Learning Items List Instance\Elements.xml" />
+    <Content Include="Data\Learning Items List\Schema.xml" />
+    <Content Include="Data\Learning Paths List\Elements.xml" />
+    <Content Include="Data\Learning Paths List\Learning Paths List Instance\Elements.xml" />
+    <Content Include="Data\Learning Paths List\Schema.xml" />
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Publish Learning Path Workflow\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{466a70ec-496f-45b4-b6b9-1e3d240e9166}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{37b6875a-7bcd-4e8f-8f42-abf1f45a9b46}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflow Dependencies\WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2bc81cd7-105f-4274-933a-d5aa5ca83f3c}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflow Dependencies\WorkflowTaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47c51679-76f7-42ed-ba7d-5ab149693d4f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c38ad415-8e11-4966-a03b-8dc287d47c2c}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\datajs-1.1.0.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\knockout-2.2.1.debug.js" />
+    <Content Include="Scripts\knockout-2.2.1.js" />
+    <Content Include="Scripts\linq-vsdoc.js" />
+    <Content Include="Scripts\linq.js" />
+    <Content Include="Scripts\linq.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\sammy-0.7.4.js" />
+    <Content Include="Scripts\sammy-0.7.4.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db595db4-d2e4-44ab-a98a-b6cecbf8cf85}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1d3c7996-70a4-4a25-b543-d56c3f2addff}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{532f1004-1e78-4f7e-ac41-a3cef405429e}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{53070272-2d48-4d87-a3b0-f18566901936}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Publish Learning Path Workflow\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

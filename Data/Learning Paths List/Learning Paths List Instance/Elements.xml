@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Learning Paths" 
+                OnQuickLaunch="TRUE" 
+                TemplateType="10000" 
+                Url="Lists/LearningPaths" 
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Entity Framework Code First</Field>
+          <Field Name="_Comments">Learning Entity Framework Code First, including how to leverage migrations</Field>
+          <Field Name="Published">True</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SharePoint 2013 Development</Field>
+          <Field Name="_Comments">Learning the fundamentals for SharePoint 2013 development.</Field>
+          <Field Name="Published">True</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Single Page Apps</Field>
+          <Field Name="_Comments">Build a Single Page Application (SPA), in JavaScript and HTML, with a rich user experience and runs on almost any device!</Field>
+          <Field Name="Published">False</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

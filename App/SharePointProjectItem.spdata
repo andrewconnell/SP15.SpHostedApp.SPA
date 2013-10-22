@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="App\" Type="ElementManifest" />
+    <ProjectItemFile Source="durandal\app.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\composition.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\events.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\http.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\messageBox.html" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\messageBox.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\modalDialog.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\system.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\viewEngine.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\viewLocator.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\viewModel.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\viewModelBinder.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\widget.js" Target="App\durandal\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\amd\almond-custom.js" Target="App\durandal\amd\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\amd\r.js" Target="App\durandal\amd\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\amd\require.js" Target="App\durandal\amd\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\amd\text.js" Target="App\durandal\amd\" Type="ElementFile" />
+    <ProjectItemFile Source="views\shell.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="viewModels\shell.js" Target="App\viewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="services\logger.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="main.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="views\learningPaths.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="viewModels\learningPaths.js" Target="App\viewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="viewModels\debug.js" Target="App\viewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="views\debug.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="services\spCurrentPageUtils.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="models\learningPath.js" Target="App\models\" Type="ElementFile" />
+    <ProjectItemFile Source="services\dataService.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="services\spAppUtils.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\plugins\router.js" Target="App\durandal\plugins\" Type="ElementFile" />
+    <ProjectItemFile Source="services\oDataUtils.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="services\liveServiceUtils.js" Target="App\services\" Type="ElementFile" />
+    <ProjectItemFile Source="durandal\transitions\entrance.js" Target="App\durandal\transitions\" Type="ElementFile" />
+    <ProjectItemFile Source="viewModels\learningItems.js" Target="App\viewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="views\learningItems.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="config.js" Target="App\" Type="ElementFile" />
+    <ProjectItemFile Source="models\learningItem.js" Target="App\models\" Type="ElementFile" />
+    <ProjectItemFile Source="views\learningItemDialog.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="models\core.js" Target="App\models\" Type="ElementFile" />
+    <ProjectItemFile Source="views\nav.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="views\learningPathDialog.html" Target="App\views\" Type="ElementFile" />
+    <ProjectItemFile Source="services\workflowService.js" Target="App\services\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

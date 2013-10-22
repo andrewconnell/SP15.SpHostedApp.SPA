@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="App">
+    <File Path="App\durandal\app.js" Url="App/durandal/app.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\composition.js" Url="App/durandal/composition.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\events.js" Url="App/durandal/events.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\http.js" Url="App/durandal/http.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\messageBox.html" Url="App/durandal/messageBox.html" ReplaceContent="TRUE" />
+    <File Path="App\durandal\messageBox.js" Url="App/durandal/messageBox.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\modalDialog.js" Url="App/durandal/modalDialog.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\system.js" Url="App/durandal/system.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\viewEngine.js" Url="App/durandal/viewEngine.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\viewLocator.js" Url="App/durandal/viewLocator.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\viewModel.js" Url="App/durandal/viewModel.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\viewModelBinder.js" Url="App/durandal/viewModelBinder.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\widget.js" Url="App/durandal/widget.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\amd\almond-custom.js" Url="App/durandal/amd/almond-custom.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\amd\r.js" Url="App/durandal/amd/r.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\amd\require.js" Url="App/durandal/amd/require.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\amd\text.js" Url="App/durandal/amd/text.js" ReplaceContent="TRUE" />
+    <File Path="App\main.js" Url="App/main.js" ReplaceContent="TRUE" />
+    <File Path="App\models\learningPath.js" Url="App/models/learningPath.js" ReplaceContent="TRUE" />
+    <File Path="App\services\dataService.js" Url="App/services/dataService.js" ReplaceContent="TRUE" />
+    <File Path="App\services\logger.js" Url="App/services/logger.js" ReplaceContent="TRUE" />
+    <File Path="App\services\spCurrentPageUtils.js" Url="App/services/spCurrentPageUtils.js" ReplaceContent="TRUE" />
+    <File Path="App\services\spAppUtils.js" Url="App/services/spAppUtils.js" ReplaceContent="TRUE" />
+    <File Path="App\views\debug.html" Url="App/views/debug.html" ReplaceContent="TRUE" />
+    <File Path="App\views\learningPaths.html" Url="App/views/learningPaths.html" ReplaceContent="TRUE" />
+    <File Path="App\views\shell.html" Url="App/views/shell.html" ReplaceContent="TRUE" />
+    <File Path="App\viewModels\shell.js" Url="App/viewModels/shell.js" ReplaceContent="TRUE" />
+    <File Path="App\viewModels\learningPaths.js" Url="App/viewModels/learningPaths.js" ReplaceContent="TRUE" />
+    <File Path="App\viewModels\debug.js" Url="App/viewModels/debug.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\plugins\router.js" Url="App/durandal/plugins/router.js" ReplaceContent="TRUE" />
+    <File Path="App\services\oDataUtils.js" Url="App/services/oDataUtils.js" ReplaceContent="TRUE" />
+    <File Path="App\services\liveServiceUtils.js" Url="App/services/liveServiceUtils.js" ReplaceContent="TRUE" />
+    <File Path="App\durandal\transitions\entrance.js" Url="App/durandal/transitions/entrance.js" ReplaceContent="TRUE" />
+    <File Path="App\viewModels\learningItems.js" Url="App/viewModels/learningItems.js" ReplaceContent="TRUE" />
+    <File Path="App\views\learningItems.html" Url="App/views/learningItems.html" ReplaceContent="TRUE" />
+    <File Path="App\config.js" Url="App/config.js" ReplaceContent="TRUE" />
+    <File Path="App\models\learningItem.js" Url="App/models/learningItem.js" ReplaceContent="TRUE" />
+    <File Path="App\views\learningItemDialog.html" Url="App/views/learningItemDialog.html" ReplaceContent="TRUE" />
+    <File Path="App\models\core.js" Url="App/models/core.js" ReplaceContent="TRUE" />
+    <File Path="App\views\nav.html" Url="App/views/nav.html" ReplaceContent="TRUE" />
+    <File Path="App\views\learningPathDialog.html" Url="App/views/learningPathDialog.html" ReplaceContent="TRUE" />
+    <File Path="App\services\workflowService.js" Url="App/services/workflowService.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

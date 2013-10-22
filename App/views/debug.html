@@ -1,0 +1,20 @@
+﻿<section class="debugFooter">
+  <div class="navbar navbar-fixed-bottom">
+    <div class="alert alert-info">
+      <div class="cursor-help" data-bind="click: toggleDebug"><i class="icon-beaker icon-large"></i>&nbsp;<strong>Debugging Utilities</strong></div>
+      <div data-bind="visible: isEnabled">
+        Cloud OData Service:
+        <div class="btn-group">
+          <button class="btn btn-info btn-small" data-bind="click: seeODataManagementPage">Admin Management Page</button>
+          <button class="btn btn-info btn-small" data-bind="click: seeODataService">Service Endpoint</button>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Local SharePoint:
+        <div class="btn-group">
+          <button class="btn btn-info btn-small" data-bind="click: seeListLearningPaths">Learning Paths</button>
+          <button class="btn btn-info btn-small" data-bind="click: seeListLearningItems">Learning Items</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

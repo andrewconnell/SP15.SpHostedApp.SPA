@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.css" Url="Content/toastr.css" ReplaceContent="TRUE" />
+    <File Path="Content\durandal.css" Url="Content/durandal.css" ReplaceContent="TRUE" />
+    <File Path="Content\images\glyphicons-halflings-white.png" Url="Content/images/glyphicons-halflings-white.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\glyphicons-halflings.png" Url="Content/images/glyphicons-halflings.png" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-responsive.min.css" Url="Content/bootstrap-responsive.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-responsive.css" Url="Content/bootstrap-responsive.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css" Url="Content/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome-ie7.min.css" Url="Content/font-awesome-ie7.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.min.css" Url="Content/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\font-awesome.css" Url="Content/font-awesome.css" ReplaceContent="TRUE" />
+    <File Path="Content\font\fontawesome-webfont.woff" Url="Content/font/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\font\fontawesome-webfont.ttf" Url="Content/font/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\font\fontawesome-webfont.svg" Url="Content/font/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\font\fontawesome-webfont.eot" Url="Content/font/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\font\FontAwesome.otf" Url="Content/font/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="Content\App.min.css" Url="Content/App.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\toastr.min.css" Url="Content/toastr.min.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

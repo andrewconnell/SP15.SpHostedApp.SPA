@@ -1,0 +1,56 @@
+﻿<!-- modal dialog -->
+<div id="modalDialog" class="modal hide fade">
+  <div class="modal-header">
+    <h3></h3>
+  </div>
+  <div class="modal-body">
+    <div class="modal-subheader"></div>
+    <form class="form-horizontal" data-bind="with: currentLearningItem">
+      <div class="control-group">
+        <label class="control-label" for="entityTitle">Title</label>
+        <div class="controls">
+          <input id="entityTitle" type="text" class="input-block-level" placeholder="title" required data-bind="value: Title" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="entityItemType">Item Type</label>
+        <div class="controls">
+          <select id="entityItemType" 
+                  class="input-block-level"
+                  required
+                  data-bind="optionsCaption: 'Select item type...',
+                             options: $root.itemTypes,
+                             value: ItemType"></select>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="entityLearningPath">Linked Learning Path</label>
+        <div class="controls">
+          <select id="entityLearningPath" 
+                  class="input-block-level"
+                  required
+                  data-bind="optionsCaption: 'Select learning path...',
+                             options: $root.unPublishedLearningPaths,
+                             optionsText: 'Title',
+                             value: AssociatedLearningPath"></select>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="entityDescription">Description</label>
+        <div class="controls">
+          <textarea id="entityDescription" rows="3" class="input-block-level" placeholder="description" required data-bind="value: Description"></textarea>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="entityUrl">URL</label>
+        <div class="controls">
+          <input id="entityUrl" type="text" class="input-block-level" placeholder="http://www.andrewconnell.com" required data-bind="value: URL" />
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button id="confirmButton" class="btn btn-danger" data-bind="click: dialogConfirmClick"></button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+  </div>
+</div>

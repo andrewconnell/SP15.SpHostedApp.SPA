@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="532f1004-1e78-4f7e-ac41-a3cef405429e" 
+        solutionId="532f1004-1e78-4f7e-ac41-a3cef405429e" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="LearningPathManagerApp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="53070272-2d48-4d87-a3b0-f18566901936" />
+  </features>
+</package>

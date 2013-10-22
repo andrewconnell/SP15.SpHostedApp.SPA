@@ -1,0 +1,22 @@
+﻿<div>
+  <header>
+    <div class="pull-left loader" data-bind="css: { active: router.isNavigating }"><i class="icon-spinner icon-2x icon-spin"></i></div>
+    <!-- navigation -->
+    <ul class="nav nav-pills" data-bind="foreach: router.visibleRoutes">
+      <li data-bind="css: { active: isActive }"><a data-bind="attr: { href: hash }, text: caption"></a></li>
+    </ul>
+  </header>
+
+  <section id="content" class="navbar-inner narbar-secondary">
+    <!-- ko compose: {model: router.activeItem, 
+                      afterCompose: router.afterCompose,
+                      transition: 'entrance' } -->
+    <!-- /ko -->
+  </section>
+
+  <footer>
+    <!-- ko compose: {model: 'viewModels/debug', activate:true } -->
+    <!-- /ko -->
+  </footer>
+
+</div>

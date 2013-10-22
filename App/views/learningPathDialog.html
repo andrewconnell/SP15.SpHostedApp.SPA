@@ -1,0 +1,30 @@
+﻿<div id="modalDialog" class="modal hide fade">
+  <div class="modal-header">
+    <h3></h3>
+  </div>
+  <div class="modal-body">
+    <div class="modal-subheader"></div>
+    <form class="form-horizontal" data-bind="with: currentLearningPath">
+      <div class="control-group">
+        <label class="control-label" for="learningPathTitle">Title</label>
+        <div class="controls">
+          <input type="text" class="input-block-level" id="learningPathTitle" placeholder="title" required data-bind="value: Title">
+            <span class="help-block muted">Enter a descriptive name for the new learning path</span>
+          </input>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="learningPathDescription">Description</label>
+        <div class="controls">
+          <textarea id="learningPathDescription" class="input-block-level" rows="3" placeholder="description" required data-bind="value: Description">
+            <span class="help-block muted">Enter a verbose description for the new learning path.</span>
+          </textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" id="confirmButton" data-bind="click: dialogConfirmClick"></button>
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+  </div>
+</div>

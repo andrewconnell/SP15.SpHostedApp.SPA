@@ -1,0 +1,80 @@
+﻿<section class="view">
+  <header>
+    <!-- add multi-purpose modal dialog -->
+    <!-- ko compose: {
+                        view: 'nav', 
+                        afterCompose: router.afterCompose
+                     } -->
+    <!-- /ko -->
+  </header>
+
+
+  <section>
+    <div class="tabbable tabs-left">
+      <ul class="nav nav-tabs">
+        <li class="pull-right"><a href="#PublishedLive" data-toggle="tab"><i class="icon-cloud" title="Resides in the Public Azure Service"></i>(<span data-bind="text: liveLearningItems().length"></span>) Published</a></li>
+        <li class="pull-right active"><a href="#NotLive" data-toggle="tab"><i class="icon-circle-blank" title="Resides in the local SharePoint Management App"></i>(<span data-bind="text: learningItems().length"></span>) Local</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane" id="PublishedLive">
+          <table class="table table-striped">
+            <tr>
+              <th>&nbsp;</th>
+              <th>Type</th>
+              <th>Learning Item</th>
+            </tr>
+            <tbody data-bind="foreach: liveLearningItems">
+              <tr>
+                <td class="cell-actions"><i class="icon-lock icon-2x" title="Locked - No edits allowed on published items."></i></td>
+                <td class="cell-actions" data-bind="text: ItemType"></td>
+                <td style="vertical-align:middle">
+                  <a target="_blank" data-bind="attr: { href: URL }"><i class="icon-globe icon-2x pull-right"></i></a>
+                  <h4 data-bind="text: Title"></h4>
+                  <span data-bind="text: Description"></span><br />
+                  <a target="_blank" data-bind="attr: { href: URL, title: URL }, text: URL" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane active" id="NotLive">
+          <table class="table table-striped">
+            <tr>
+              <th>&nbsp;</th>
+              <th>Type</th>
+              <th>Learning Item</th>
+            </tr>
+            <tbody data-bind="foreach: learningItems">
+              <tr>
+                <td class="cell-actions">
+                  <div data-bind="if: AssociatedLearningPath().Published">
+                    <i class="icon-lock icon-2x" title="Locked - No edits allowed on published items."></i>
+                  </div>
+                  <div data-bind="ifnot: AssociatedLearningPath().Published" class="btn-group">
+                    <button class="btn btn-mini btn-tiny btn-force-refresh" data-bind="click: $root.EditCommand"><i class="icon-pencil"></i></button>
+                    <button class="btn btn-mini btn-tiny btn-force-refresh btn-danger" data-bind="click: $root.DeleteCommand"><i class="icon-remove"></i></button>
+                  </div>
+                </td>
+                <td class="cell-actions" data-bind="text: ItemType"></td>
+                <td>
+                  <a target="_blank" data-bind="attr: { href: URL }"><i class="icon-globe icon-2x pull-right"></i></a>
+                  <h4 data-bind="text: Title"></h4>
+                  <span data-bind="text: Description"></span><br />
+                  <a target="_blank" data-bind="attr: { href: URL, title: URL }, text: URL" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- add multi-purpose modal dialog -->
+  <!-- ko compose: {
+                      view: 'learningItemDialog', 
+                      afterCompose: router.afterCompose
+                   } -->
+  <!-- /ko -->
+
+</section>
